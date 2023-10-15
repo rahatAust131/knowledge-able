@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .left, 
+.header .right {
+    margin: 0.25rem 0;
+}
+
+.header .right {
+    width: 5%;
+}
+.header .right img {
+    display: block;
+    width: 100%;
+}

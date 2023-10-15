@@ -1,13 +1,20 @@
-import { useState } from 'react'
-import './App.css'
+
+import './App.css';
+// import fakeDb from "../public/fakedb.json";
+import Header from './components/Header/Header';
+import Blogs from './components/Blogs/Blogs';
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        HI there!
+      <div className='container'>
+        {/* {console.log(fakeDb)} */}
+        <Header />
+        <hr />
+        <Blogs />
       </div>
     </>
   )
